@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Chrometest">
+  <parameter name="browser" value="Chrome" />
+    <classes>
+      <class name="maven2.Nmaven2.Crossbrowser"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="firefoxtest">
+  <parameter name="browser" value="firefox" />
+    <classes>
+      <class name="maven2.Nmaven2.Crossbrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
